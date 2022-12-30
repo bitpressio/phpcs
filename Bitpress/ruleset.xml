@@ -8,7 +8,7 @@
     <arg name="colors"/>
 
     <!-- Do not print warnings -->
-    <arg value="n"/>
+    <!-- <arg value="n"/> -->
 
     <!-- Show progress of the run -->
     <arg value="p"/>
