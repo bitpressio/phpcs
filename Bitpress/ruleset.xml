@@ -4,6 +4,9 @@
 
     <description>PHPCS ruleset for Bitpress</description>
 
+    <!-- Use colors in output -->
+    <arg name="colors"/>
+
     <!-- Do not print warnings -->
     <arg value="n"/>
 
@@ -26,5 +29,11 @@
     <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
         <exclude-pattern>tests/</exclude-pattern>
     </rule>
+
+    <exclude-pattern>*/.phpstorm.meta.php</exclude-pattern>
+    <exclude-pattern>*/_ide_helper.php</exclude-pattern>
+    <exclude-pattern>*/*.blade.php</exclude-pattern>
+    <exclude-pattern>*/autoload.php</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
 
 </ruleset>
