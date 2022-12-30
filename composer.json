@@ -1,20 +1,22 @@
 {
-    "name": "bitpressio/phpcs",
-    "description": "PHP_CodeSniffer Ruleset for Bitpress",
-    "type": "phpcodesniffer-standard",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Paul Redmond",
-            "email": "paulrredmond@gmail.com"
-        }
-    ],
-    "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2"
-    },
-    "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
-        }
+  "name": "bitpressio/phpcs",
+  "description": "PHP_CodeSniffer Ruleset for Bitpress",
+  "type": "phpcodesniffer-standard",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Redmond",
+      "email": "paulrredmond@gmail.com"
     }
+  ],
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+    "sirbrillig/phpcs-variable-analysis": "^2.11"
+  },
+  "config": {
+    "allow-plugins": {
+        "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "sort-packages": true
+  }
 }
