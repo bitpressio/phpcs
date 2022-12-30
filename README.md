@@ -1,1 +1,1 @@
-# PHP_CodeSniffer
+# PHP_CodeSniffer Ruleset for Bitpress
