@@ -9,7 +9,7 @@
       "email": "paulrredmond@gmail.com"
     }
   ],
-  "require-dev": {
+  "require": {
     "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
     "sirbrillig/phpcs-variable-analysis": "^2.11"
   },
