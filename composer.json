@@ -18,5 +18,8 @@
         "dealerdirect/phpcodesniffer-composer-installer": true
     },
     "sort-packages": true
+  },
+  "scripts": {
+    "post-install-cmd": "vendor/bin/phpcs --config-set default_standard Bitpress"
   }
 }
