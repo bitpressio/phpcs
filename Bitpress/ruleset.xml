@@ -19,6 +19,8 @@
     <!-- Our base rule: set to PSR12 -->
     <rule ref="PSR12">
         <exclude name="PSR12.Traits.UseDeclaration.MultipleImport" />
+        <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceBefore" />
+        <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceAfter" />
     </rule>
 
     <rule ref="Generic.Files.LineLength">
